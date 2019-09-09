@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>add product</title>
+
+<link rel="stylesheet" href="addproduct.css" type="text/css">
+
+</head>
+
+<body>
+
+<img src="images/im2.jpg" style="width:100%;height:300px">
+
+<div class="main">
+
+<div class="vertical-menu">
+  <a href="#" class="active">User Menu</a>
+  <a href="home.html">Home</a>
+  <a href="#">View All Users and Activate</a>
+  <a href="#">View All Products</a>
+  <a href="#">View Recommended Products</a>
+  <a href="#">View Purchased Products</a>
+  <a href="adminlogin.jsp">Logout</a>
+</div>
+
+<div class="login">
+<h2>Add Product</h2>
+<br><br><br><br>
+
+<form action="addproduct.jsp" method="post" >
+
+<table id="table" width="50%" height="130px" align="center">
+<tr></tr>
+<tr>
+<td></td>
+<td>Category:</td>
+<td><input type="text" size=22 name="category" required style="font-size:14pt;"></td>
+</tr>
+
+<tr>
+<td></td>
+<td>Product Name:</td>
+<td><input type="text" size=22 name="pname" required style="font-size:14pt;"></td>
+</tr>
+
+<tr>
+<td></td>
+<td>Discription:</td>
+ <td>
+      <input type="text" size=22 name="discription" required style="font-size:14pt;">
+ </td>
+</tr>
+
+<tr>
+<td></td>
+<td>Price:</td>
+<td><input type="text" size=22 name="price" required style="font-size:14pt;"></td>
+</tr>
+
+<tr>
+<td></td>
+<td>Brand:</td>
+<td><input type="text" size=22 name="brand" required style="font-size:14pt;"></td>
+</tr>
+
+<tr></tr><tr></tr><tr>
+
+<tr>
+<td></td>
+<td ><input type="Reset"></td>
+<td><input type="submit" onclick="return check(this.form)" value="Upload"></td>
+</tr>
+
+</table>
+</form>
+
+</div>
+
+</div>
+</body>
+</html>
